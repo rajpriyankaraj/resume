@@ -3,61 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>signup page</title>
+    <link rel="stylesheet" href="./proj.css">
+    
 </head>
 <body>
-    <h1>Priyanka Raj</h1>
-    <p>i love to learn development :)</p>
-    <img src="./1741620579874.jpeg" alt="Image" height="150px" width="150px">
-    <a href="#contact"><p>connect with me</p></a>
-    <hr>
-    <!-- Header -->
-    <h2>Education</h2> 
-    <table border="black">
-        <tr>
-            <th>Course</th>
-            <th>Institute</th>
-            <th>Year</th>
-            <th>Result</th>
-        </tr>
-        <tr>
-            <td>MCA</td>
-            <td>B.D.college</td>
-            <td>2025</td>
-            <td>80%</td>
-        </tr>
-        <tr>
-            <td>BCA</td>
-            <td>Bihar University</td>
-            <td>2023</td>
-            <td>75%</td>
-        </tr>
-        </table>
-        <hr>
-        <h2>Skills</h2>
-        <ul>
-            <li>Html,css,javascript</li>
-            <li>Reactjs</li>
-            <li>MySQL,MongoDB</li>
-        </ul>
-        <hr>
-        <h2>Projects</h2>
-        <ul>
-            
-            <li><b>Stock Management System</b></li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in velit deserunt dolorem non accusamus natus magni porro illo aperiam nostrum obcaecati, cum voluptas nobis tempora debitis deleniti quos repellat necessitatibus nesciunt. Dolor nam debitis at provident numquam earum a.</p>
-            <li><b>Hotel AutoMation System</b></li>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo minima eos impedit asperiores sint earum error atque mollitia voluptates, unde necessitatibus saepe nihil nisi dignissimos! Quis blanditiis quaerat iste. Quae maxime odio eum molestiae suscipit alias voluptate at illo dolore.</p>
-            <li><b>Billing Management</b></li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex rerum aperiam, perspiciatis non laudantium sapiente. Placeat, dolorem? Cumque earum excepturi consequuntur dolorem ipsam voluptatum, natus similique porro doloremque inventore nostrum quod? Fugit unde dolores eum provident ratione deleniti quisquam!</p>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+               <h1>Signup</h1> 
+               <p>It just takes 30 second </p>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" placeholder="priyanka raj" required>
+                    </p>
+                    <p>
+                        <label for="email">Youe Email</label>
+                        <input type="email" id="email" placeholder="rajpriyankaraj457@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="Password">Your New Password</label>
+                        <input type="password" id="password" placeholder="at least 8 characters" required><br>
+                    </p>
+                    <p>
+                        
+                        <input type="submit" id="submit" value="Create Accounts">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an Accounts?<a href="#">Login</a></p>
+            </footer>
 
-        </ul>
-        <hr>
-        <h2 id="contact">Connect With me </h2>
-        Email:-<a href="mailto:rajpriyanka186@gmail.com">rajpriyanka186@gmail.com</a>
-       <a   target="_blank"  href="./AboutUs.html"><p>About Us</p></a>
-       <a href="tel:+9198989898">98989898</a> 
-
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
     
 </body>
 </html>
